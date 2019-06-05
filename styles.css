@@ -1,0 +1,546 @@
+@font-face {
+font-family: "MONTSERRAT-BOLD";
+src: url("../fonts/MONTSERRAT-BOLD.ttf");
+}
+@font-face {
+font-family: "MONTSERRAT-LIGHT";
+src: url("../fonts/MONTSERRAT-LIGHT.ttf");
+}
+
+
+
+
+
+
+
+
+
+#logo {
+    max-width: 100%;
+    border-radius: 100%;
+    margin: 0 auto;
+        width: 12%;
+}
+
+
+#inicio{
+    margin-top: 6%;
+}
+
+
+.container-fluid{
+    overflow: hidden;
+}
+
+
+/*Footer*/
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+ 
+ #social-fb:hover {
+     color: #3B5998;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+ }
+ #social-gp:hover {
+     color: #d34836;
+ }
+ #social-em:hover {
+     color: #f39c12;
+ }
+
+#contacto{
+    background-color: white;
+}
+/*End Footer*/
+
+
+
+
+
+
+/*Nuevo Nav*/
+
+/*alteracoes da barra de navegacao principal*/
+
+.navbar-inverse {
+    background: black;
+    border-bottom: 20px solid #B0EDEA;
+    color: black;
+}
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
+    text-shadow: none;
+    color: black;
+}
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav> ul >li,
+.navbar-inverse .navbar-nav>li.focus>a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active >a:visited,
+.navbar-inverse .navbar-nav>li:hover>a:hover {
+
+    
+    color: black;
+
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: black;
+    background-color: transparent;
+}
+
+
+
+.btn { border-radius: 25px; }
+.text-dark {color: #B0EDEA;}
+.text-light{color: #B0EDEA;}
+.text16 {font-size: 16px;}
+
+
+
+nav.navbar.navbar-default.navbar-inverse.navbarnofixed
+{
+    background: white;
+    border-color: white;
+    border-bottom-width: 0px;
+}
+
+.socialarrowheaders{
+    padding-bottom: 1em;
+}
+
+
+
+
+.contactheader
+{
+    width: 21%;
+}
+/*Fin nuevo nav*/
+
+
+
+
+
+
+
+#btnmenubar
+{
+    background: white;
+    border-color: #B0EDEA;
+    z-index: 999999;
+}
+.iconbar {
+    background-color: black !important;
+    z-index: 999999 !important;
+}
+
+#btnmenubar:hover
+{
+    background: white;
+    border-color: #B0EDEA;
+    z-index: 999999;
+}
+
+
+
+.header
+{
+    position: relative; 
+    width: 100%;
+    height: 100%;
+        margin-top: 1em;
+
+}
+
+#instimage
+{
+    max-width: 37px;
+    margin-bottom: 22px;
+    max-height: 42px;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.thumbnail .caption {
+    padding: 10% !important;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: black;
+}
+
+.presentationtext
+    {
+           font-family: "Raleway-Light";
+    font-size: 1.78em;
+    text-align: justify;
+    letter-spacing: 0.2em;
+    margin-top: 1.6em;
+        position: relative;
+    right: 2%;
+    }
+
+#presentation
+{
+        position: relative;
+    left: 1.3%;
+    margin-top: 8.5%;
+    display: inline-block;
+    z-index: 999999;
+    
+}
+
+.navbar-right {
+    float: right;
+}
+
+
+
+#hrstroke {
+    border: 0;
+    border-top: 3px solid white;
+    width: 39.5%;
+    /* height: 500px; */
+    margin-left: 0%;
+        margin-top: 10px;
+}
+
+.vl {
+      border-left: 4px solid #A5D5DE;
+    height: 6.4em;
+    display: inline-block;
+    margin-right: 1.2em;
+}
+.mediatext{
+     display: inline-block;
+}
+
+
+#miform{
+    text-align: center;
+}
+
+.form-group {
+
+    text-align: center;
+    width: 38%;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    left: 27%;
+    font-size: 1.5em;
+    height: 3em;
+}
+
+.form-horizontal .control-label {
+    font-family: "Raleway-Light";
+    letter-spacing: 0.3em;
+}
+.form-control{
+        height: 3em;
+}
+.form-control-feedback {
+    line-height: 42px;
+}
+#subdiv{
+        margin-top: 9em;
+        margin-bottom: 6em;
+}
+#btnsubmit{
+    font-size: 2em;
+    padding: 6px 224px;
+    text-align: center;
+/*    margin-left: 2.8em;*/
+}
+
+#contactlabel{
+        margin-bottom: 2em;
+    margin-top: 2em;
+    font-family: "Raleway-Light";
+    letter-spacing: 0.3em;
+    font-size: 2em;
+}
+.noresize {
+  resize: none; 
+}
+
+.form-horizontal .has-feedback .form-control-feedback {
+    right: -28px;
+}
+
+
+
+
+body{
+    overflow-x: hidden;
+}
+#limitmenuphone{
+    display: none;
+}
+
+.famenu{
+    display: none;
+}
+
+/* Safari 10.1+ (alternate method) */
+
+                @media not all and (min-resolution:.001dpcm) {
+                    @supports (-webkit-appearance:none) {
+
+                                    #institutionaltext2{
+                                        top:54%;
+                                    }
+                    }
+                }
+
+
+
+
+
+.cabeceramodal{
+    background: #E5F3F6;
+    font-family: "Raleway-light";
+    letter-spacing: 0.3em;
+}
+.titulomodal{
+    font-weight: bold;
+}
+
+.cuerpomodal{
+    font-family: "Raleway-regular";
+/*    letter-spacing: 0.3em;*/
+}
+#botonaceptar{
+    background-color: rgb(39,42,76);
+}
+.footermodal{
+    border-top: 0px solid #e5e5e5;
+}
+
+
+
+#myModal{
+        margin-top: 15%;
+    z-index: 99999999;
+}
+
+
+.cabeceramodal{
+border-radius: 50%;
+    text-align: center;
+    width: 41%;
+    margin-left: 29%;
+    margin-top: -5%;
+
+}    
+.dialogomodal{
+    border-radius: 50% !important;
+}
+.contenidomodal{
+border-radius: 50%;
+}
+
+#cruzcerrar {
+    margin-top: 3px;
+}
+
+#botonaceptar{
+    float: left;
+    margin-left: 43%;
+}
+
+
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #101010;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar-right {
+    float: none !important;
+    margin-right: 0px;
+    text-align: center;
+    margin: 0 auto !important;
+    display: inline !important;
+}
+
+.navbar-nav>li {
+      float: none;
+    text-align: center;
+    display: inline;
+    font-family: MONTSERRAT-LIGHT;
+    font-size: 120%;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: black;
+    display: inline;
+    text-align: center !important;
+}
+
+#sociallinks{
+        position: absolute;
+    top: 24%;
+    margin-left: 85%;
+}
+
+
+
+.blockgreen{
+      width: 33px;
+    height: 33px;
+    background-color: rgb(135,198,176);
+    position: absolute;
+    
+}
+
+#blockheader{
+    margin-left: 0%;
+    margin-top: -3%;
+    
+}
+
+#sociallinks>a>img{
+margin-right: 3%;
+    max-width: 19%;
+}
+
+.pharagraphs{
+    font-family: "MONTSERRAT-LIGHT";
+    font-size: 1.3em;
+    letter-spacing: 0.1em;
+    word-spacing: 0.1em;
+    width: 93%;
+}
+
+.greentitles{
+    color: #87C6B0;
+    font-family: "MONTSERRAT-BOLD";
+}
+
+#blockme{
+      margin-top: 38%;
+    margin-left: -6%;
+    width: 100%;
+}
+
+
+.blockyellow{
+     width: 70px;
+    height: 70px;
+    background-color: yellow;
+        z-index: 1;
+        position: absolute;
+
+
+}
+
+#blockheaderyellow {
+       
+    margin-left: 3%;
+    margin-top: -3%;
+}
+
+#top{
+        margin-bottom: 3em;
+}
+
+
+
+.myline{
+    width: 65px;
+    height: 6px;
+    margin-top: 5%;
+}
+.yellowline{
+    background-color: red;
+}
+
+
+
+#blockaboutmegreen{
+    margin-left: 47%;
+    margin-top: 3%;
+}
+
+.blockyellowmedium{
+     width: 53px;
+    height: 53px;
+    background-color: yellow;
+    position: absolute;
+}
+
+#blockaboutmeyellow{
+        margin-top: 36%;
+    margin-left: 71%;
+}
+
+#columna1{
+/*    width: 100%;*/
+    height: 100%;
+    background: blue;
+}
+
+#columna2{
+/*    width: 100%;*/
+    height: 100%;
+    background: red;
+}
+
+.miclase{
+    display: inline-block;
+}
+
+/*Tablets*/
+/*@media (min-width: 768px) and (max-width: 991px) */
+
+@media (max-width: 991px)
+{
+        #columna2{
+                background: green;
+        }
+}
+
+
+
+
+/*Tablets and Upper*/
+@media (min-width: 768px)
+{
+    
+    
+
+}
+
+
+
+/* Mobile */
+@media (max-width: 768px)
+{
+   
+}
+    
+ 
+    
+
+
