@@ -1,10 +1,10 @@
 @font-face {
 font-family: "MONTSERRAT-BOLD";
-src: url("../fonts/MONTSERRAT-BOLD.ttf");
+src: url("fonts/MONTSERRAT-BOLD.ttf")format("truetype");
 }
 @font-face {
 font-family: "MONTSERRAT-LIGHT";
-src: url("../fonts/MONTSERRAT-LIGHT.ttf");
+src: url("fonts/MONTSERRAT-LIGHT.ttf" )format("truetype");
 }
 
 
@@ -134,11 +134,164 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
 }
 /*Fin nuevo nav*/
 
+/*inicio Prueba */
+
+#pruebarow{
+    height: 500px;
+    background: #87C6B0;
+ }
+ 
+
+#prueba{
+   /* width: 800px;
+    height: 370px;*/
+    background-color: black;
+    opacity: 0.3;
+    filter: alpha(opacity=30); 
+        z-index: 1;
+        /*position: absolute;*/
+ 
+       /* margin-left: 57.8%;
+        margin-top: 10%;  */ 
+ }
+ 
+
+
+/*Fin Prueba*/
+
+
+/*inicio PORTADA */
+
+#PORTADA {
+
+    margin-bottom: 8%;
+
+}
+
+#blockmsjtransp{
+   /* width: 800px;
+   height: 370px;*/
+   width: 45%;
+   height:35%;
+   background-color: black;
+   opacity: 0.3;
+   filter: alpha(opacity=30); 
+       z-index: 1;
+       position: absolute;
+
+       margin-left: 57.8%;
+       margin-top: 10%;  
+}
+#InBlockTransp{
+   width: 800px;
+   height: 370px;
+       z-index: 1;
+       position: absolute;
+
+       margin-left: 57.8%;
+       margin-top: 10%;  
+}
+#portadaphoto 
+{
+    float: left;
+   
+}
+
+/*Fin PORTADA*/
+
+
+/*Inicio  ABOUT ME*/
+
+#aboutmesection {
+
+    margin-bottom: 10%;
+    
+}
+
+/*Fin ABOUT ME*/
+
+/*inicio Cuadricula*/
+
+#cuadricula_first_row{
+
+    margin-bottom: 3%; 
+}
+
+#cuadricula_second_row{
+
+    margin-bottom: 10%; 
+}
+
+/*Fin Cuadricula*/
+
+/*inicio maternidad*/
+
+#maternity {
+
+    margin-bottom: 22%; 
+
+}
+
+/*Fin maternidad*/
+
+/*inicio recien nacidos*/
+
+#newborn {
+
+    margin-bottom: 22%; 
+
+}
+
+#newborn_title {
+
+
+}
+
+#columna1newborn {
+
+
+    }
+
+/*Fin recien nacidos*/
+
+/*inicio niños*/
+
+#children{
+
+    margin-bottom: 22%;  
+
+}
+
+/*Fin niños*/
+
+
+/*inicio familia*/
+
+#family{
+
+    margin-bottom: 15%;  
+
+}
+
+/*Fin familia*/
+
+
+#greenrow{
+    height: 40px;
+    background: #87C6B0;
+    margin-bottom: 11%;
+ }
 
 
 
 
 
+
+.mysections {
+
+   /* height: 10px;*/
+
+}
 
 #btnmenubar
 {
@@ -393,7 +546,7 @@ border-radius: 50%;
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    color: black;
+    columns: #616160;
     display: inline;
     text-align: center !important;
 }
@@ -409,7 +562,7 @@ border-radius: 50%;
 .blockgreen{
       width: 33px;
     height: 33px;
-    background-color: rgb(135,198,176);
+    background-color: #80bca6;
     position: absolute;
     
 }
@@ -428,38 +581,57 @@ margin-right: 3%;
 .pharagraphs{
     font-family: "MONTSERRAT-LIGHT";
     font-size: 1.3em;
+    color: #616160;
     letter-spacing: 0.1em;
     word-spacing: 0.1em;
     width: 93%;
+    
 }
 
 .greentitles{
-    color: #87C6B0;
+    color: #80bca6;
     font-family: "MONTSERRAT-BOLD";
+    text-align: center;
 }
 
-#blockme{
-      margin-top: 38%;
-    margin-left: -6%;
-    width: 100%;
+.aboutmemargins{
+
+    /* margin-top: 15%;
+    margin-bottom: 15%;
+    margin-right: 15%;
+    margin-left: 15%; */
+    /* display: inline-block; */
+
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* margin: 20%; */
+    /* width: 60%;
+    height: auto;  */
 }
 
 
 .blockyellow{
      width: 70px;
     height: 70px;
-    background-color: yellow;
+    background-color: #ffc880;
         z-index: 1;
         position: absolute;
 
 
 }
 
+
+
 #blockheaderyellow {
        
     margin-left: 3%;
     margin-top: -3%;
 }
+
+
 
 #top{
         margin-bottom: 3em;
@@ -473,7 +645,7 @@ margin-right: 3%;
     margin-top: 5%;
 }
 .yellowline{
-    background-color: red;
+    background-color: rgb(255, 200, 128);
 }
 
 
@@ -486,7 +658,7 @@ margin-right: 3%;
 .blockyellowmedium{
      width: 53px;
     height: 53px;
-    background-color: yellow;
+    background-color: #ffc880;
     position: absolute;
 }
 
