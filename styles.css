@@ -7,7 +7,10 @@ font-family: "MONTSERRAT-LIGHT";
 src: url("fonts/MONTSERRAT-LIGHT.ttf" )format("truetype");
 }
 
-
+@font-face {
+font-family: "MONTSERRAT-SEMIBOLD";
+src: url("fonts/MONTSERRAT-SEMIBOLD.TTF" )format("truetype");
+}
 
 
 
@@ -208,9 +211,41 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
     
 }
 
+.firstmargin{
+
+    margin-top: 10%;
+
+}
+
+#aboutmetitle{
+
+    margin-top: 5%;
+    margin-bottom: 1%;
+    font-size: 2.25em !important;
+}
+
+#blockme{
+
+    margin-top: 5%;
+}
+
+.aboutmeline{
+
+    margin-left: 37%;
+
+}
+
 /*Fin ABOUT ME*/
 
 /*inicio Cuadricula*/
+
+
+
+.cuadricula_margins{
+
+    margin: auto;
+
+    }
 
 #cuadricula_first_row{
 
@@ -228,8 +263,22 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
 
 #maternity {
 
-    margin-bottom: 22%; 
+    margin-bottom: 22%;
+    
+}
 
+.maternitymargins {
+
+   padding: 2%;
+
+    
+}
+
+.maternitytitle{
+
+    margin-top: 35%;
+    margin-bottom:30%;
+    
 }
 
 /*Fin maternidad*/
@@ -252,6 +301,19 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
 
     }
 
+.newbornmargins {
+
+   padding: 2%;
+        
+     }
+
+.newborntitle{
+
+    margin-top: 35%;
+    margin-bottom:30%;
+    
+}
+
 /*Fin recien nacidos*/
 
 /*inicio niños*/
@@ -260,6 +322,19 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
 
     margin-bottom: 22%;  
 
+}
+
+.childrenmargins {
+
+    padding: 2%;
+         
+      }
+
+.childrentitle{
+
+    margin-top: 35%;
+    margin-bottom:30%;
+    
 }
 
 /*Fin niños*/
@@ -271,6 +346,19 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
 
     margin-bottom: 15%;  
 
+}
+
+.familymargins {
+
+    padding: 2%;
+         
+      }
+
+.familytitle{
+
+    margin-top: 35%;
+    margin-bottom:30%;
+    
 }
 
 /*Fin familia*/
@@ -539,7 +627,7 @@ border-radius: 50%;
       float: none;
     text-align: center;
     display: inline;
-    font-family: MONTSERRAT-LIGHT;
+    font-family: "MONTSERRAT-LIGHT";
     font-size: 120%;
     margin-right: 3%;
     margin-left: 3%;
@@ -568,7 +656,7 @@ border-radius: 50%;
 }
 
 #blockheader{
-    margin-left: 0%;
+    margin-left: 3.6%;
     margin-top: -3%;
     
 }
@@ -584,7 +672,12 @@ margin-right: 3%;
     color: #616160;
     letter-spacing: 0.1em;
     word-spacing: 0.1em;
-    width: 93%;
+    width: 89%;
+    text-align: justify;
+    text-indent: 20px;
+    margin: auto;
+    line-height:200%
+
     
 }
 
@@ -592,6 +685,10 @@ margin-right: 3%;
     color: #80bca6;
     font-family: "MONTSERRAT-BOLD";
     text-align: center;
+    letter-spacing: 0.2em;
+    word-spacing: 0.1em;
+    font-size: 2.6em;
+    /*margin: auto;*/
 }
 
 .aboutmemargins{
@@ -627,8 +724,8 @@ margin-right: 3%;
 
 #blockheaderyellow {
        
-    margin-left: 3%;
-    margin-top: -3%;
+    margin-left: 6.8%;
+    margin-top: -1.9%;
 }
 
 
@@ -640,9 +737,10 @@ margin-right: 3%;
 
 
 .myline{
-    width: 65px;
-    height: 6px;
-    margin-top: 5%;
+    width: 59px;
+    height: 8px;
+    z-index: 1;
+    position: absolute;
 }
 .yellowline{
     background-color: rgb(255, 200, 128);
