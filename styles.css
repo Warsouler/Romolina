@@ -171,9 +171,10 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
 
 }
 
+/*
 #blockmsjtransp{
-   /* width: 800px;
-   height: 370px;*/
+    width: 800px;
+   height: 370px;
    width: 45%;
    height:35%;
    background-color: black;
@@ -185,6 +186,25 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
        margin-left: 57.8%;
        margin-top: 10%;  
 }
+*/
+
+
+#blockmsjtransp {
+    width: 43%;
+    height: 29%;
+    background-color: black;
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+    z-index: 99999;
+    position: absolute;
+    margin-left: 57.8%;
+    margin-top: -33%;
+    display: inline;
+}
+
+
+
+
 #InBlockTransp{
    width: 800px;
    height: 370px;
