@@ -233,7 +233,16 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
     font-size: 3em;
     z-index: 2;
 }
+
+.portadalineposition{
+
+    left: 61%;
+    top: 15%;
+    margin-top: 25%;
+    z-index: 2 !important;
+
 }
+
 
 
 /*Fin PORTADA*/
@@ -243,7 +252,7 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
 
 #aboutmesection {
 
-    margin-bottom: 10%;
+   margin-bottom: 10%;
     
 }
 
