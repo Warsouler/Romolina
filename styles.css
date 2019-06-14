@@ -22,7 +22,9 @@ src: url("fonts/MONTSERRAT-SEMIBOLD.TTF" )format("truetype");
     max-width: 100%;
     border-radius: 100%;
     margin: 0 auto;
-        width: 12%;
+        width: 280px;
+        margin-top: 2%;
+        margin-bottom: 3%;
 }
 
 
@@ -649,7 +651,7 @@ border-radius: 50%;
     display: inline;
     font-family: "MONTSERRAT-LIGHT";
     font-size: 120%;
-    margin-right: 3%;
+font-size: 130%;
     margin-left: 3%;
 }
 
@@ -660,9 +662,10 @@ border-radius: 50%;
 }
 
 #sociallinks{
-        position: absolute;
-    top: 24%;
-    margin-left: 85%;
+       position: absolute;
+    top: 7%;
+    margin-left: 39%;
+    width: 100%;
 }
 
 
@@ -682,8 +685,7 @@ border-radius: 50%;
 }
 
 #sociallinks>a>img{
-margin-right: 3%;
-    max-width: 19%;
+    margin-right: 1%;
 }
 
 .pharagraphs{
@@ -831,6 +833,18 @@ margin-right: 3%;
 }
     
  
-    
+/*    Customs */
+@media (min-width:991px) and (max-width: 1200px) 
+{
+   .navbar-nav>li {
+    font-size: 130%;
+    margin-left: -0.1%;
+    margin-top: 2%;
+    }
+    #navbar-1{
+            margin-top: 2.3%;
+    }
+}
+
 
 
