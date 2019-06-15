@@ -525,6 +525,7 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
 
 .form-group {
 
+/*
     text-align: center;
     width: 38%;
     align-items: center;
@@ -533,11 +534,24 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
     left: 27%;
     font-size: 1.5em;
     height: 3em;
+*/
+    
+    width: 100%;
+    font-size: 1.5em;
+    height: 3em;
+    
+    margin-bottom: 3%;
 }
 
 .form-horizontal .control-label {
-    font-family: "Raleway-Light";
-    letter-spacing: 0.3em;
+    font-family: "MONTSERRAT-LIGHT";
+    letter-spacing: 0.2em;
+    padding-top: 7px;
+    margin-bottom: 0;
+    text-align: center;
+    width: 57%;
+    float: left;
+    
 }
 .form-control{
         height: 3em;
@@ -560,16 +574,17 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
 #contactlabel{
         margin-bottom: 2em;
     margin-top: 2em;
-    font-family: "Raleway-Light";
-    letter-spacing: 0.3em;
-    font-size: 2em;
+    font-family: "MONTSERRAT-BOLD";
+    letter-spacing: 0.2em;
+    font-size: 4em;
+        color: #ffc880;
 }
 .noresize {
   resize: none; 
 }
 
 .form-horizontal .has-feedback .form-control-feedback {
-    right: -28px;
+    right: 36%;
 }
 
 
@@ -839,9 +854,17 @@ input[type=text],input[type=email] {
     -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
      transition: none; 
     border-color: #80BCA6;
+    width: 35%;
+    margin:0 auto;
+    margin-left: 25%;
 }
 
-
+#inputGroupSuccess2{
+    width: 35%;
+    margin:0 auto;
+    float: none;
+    margin-left: -14%;
+}
 .has-error .form-control {
     border-color: #a94442;
     -webkit-box-shadow: none;
@@ -861,7 +884,25 @@ input[type=text],input[type=email] {
 #comment
 {
     border-color: #80BCA6;
-        height: 24em
+        height: 24em;
+    width: 35%;
+    margin:0 auto;
+    margin-left: 25%;
+}
+
+
+.form-group
+{
+        margin-left: 14% !important;
+}
+
+.help-block.with-errors
+{
+    width: 109%;
+}
+
+#emailerror{
+    width: 100%;
 }
 
 
