@@ -356,11 +356,7 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
 
     }
 
-.newbornmargins {
 
-   padding: 2%;
-        
-     }
 
 .newborntitle{
 
@@ -379,11 +375,11 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
 
 }
 
-.childrenmargins {
+.newbornmargins,.childrenmargins,.familymargins {
 
-    padding: 2%;
-         
-      }
+/*   padding: 2%;*/
+        
+     } 
 
 .childrentitle{
 
@@ -403,11 +399,6 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
 
 }
 
-.familymargins {
-
-    padding: 2%;
-         
-      }
 
 .familytitle{
 
@@ -916,13 +907,29 @@ input[type=text],input[type=email] {
 }
 
 .slick-prev {
-    left: 3% !important;
+    left: 4% !important;
     z-index: 999;
 }
 .slick-next {
-    right: 3% !important;
+    right: 4% !important;
     z-index: 999;
 }
+
+.slick-prev:before, .slick-next:before {
+    font-size: 50px !important;
+    opacity: 1 !important;
+        font-family: monospace !important;
+}
+
+.slick-prev:before {
+    content: '<' !important;
+}
+.slick-next:before {
+    content: '>' !important;
+}
+
+
+
 
 
 /*Tablets*/
