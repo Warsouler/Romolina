@@ -915,6 +915,15 @@ input[type=text],input[type=email] {
     width: 100%;
 }
 
+.slick-prev {
+    left: 3% !important;
+    z-index: 999;
+}
+.slick-next {
+    right: 3% !important;
+    z-index: 999;
+}
+
 
 /*Tablets*/
 /*@media (min-width: 768px) and (max-width: 991px) */
