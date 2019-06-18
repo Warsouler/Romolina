@@ -919,6 +919,7 @@ input[type=text],input[type=email] {
     font-size: 50px !important;
     opacity: 1 !important;
         font-family: monospace !important;
+    color: rgb(255, 200, 128) !important;
 }
 
 .slick-prev:before {
@@ -928,9 +929,10 @@ input[type=text],input[type=email] {
     content: '>' !important;
 }
 
-
-
-
+.slick-slide img {
+    width: 100% !important;
+    max-height: 735px !important;
+}
 
 /*Tablets*/
 /*@media (min-width: 768px) and (max-width: 991px) */

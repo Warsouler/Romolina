@@ -252,10 +252,23 @@
 <!--          aca carrousel-->
 <!--            <img src="img/MATERNIDAD.jpg"  class="img-responsive maternitymargins"/>-->
          <div class="carr">
+<!--
               <div><img src="img/MATERNIDAD.jpg"  class="img-responsive maternitymargins"/></div>
-              <div><img src="img/MATERNIDAD.jpg"  class="img-responsive maternitymargins"/></div>
-              <div><img src="img/MATERNIDAD.jpg"  class="img-responsive maternitymargins"/></div>
-            </div>
+              <div><img src="img/maternidad/mat1.jpg"  class="img-responsive maternitymargins"/></div>
+              <div><img src="img/maternidad/mat2.jpg"  class="img-responsive maternitymargins"/></div>
+              <div><img src="img/maternidad/mat3.jpg"  class="img-responsive maternitymargins"/></div>
+              <div><img src="img/maternidad/mat5.jpg"  class="img-responsive maternitymargins"/></div>
+-->
+           
+           
+<!--                       <div class="myimagecontainers">-->
+                       <div><img src="img/MATERNIDAD.jpg"  class="img-responsive maternitymargins"/></div>
+                          <div><img data-lazy="img/maternidad/mat1.jpg"  class="img-responsive maternitymargins"/></div>
+                          <div><img data-lazy="img/maternidad/mat2.jpg"  class="img-responsive maternitymargins"/></div>
+                          <div><img data-lazy="img/maternidad/mat3.jpg"  class="img-responsive maternitymargins"/></div>
+                          <div><img data-lazy="img/maternidad/mat5.jpg"  class="img-responsive maternitymargins"/></div>
+<!--                       </div>-->
+        </div>
             
           
         </div>
@@ -494,6 +507,8 @@
      $(document).ready(function(){
   $('.carr').slick({
 //    setting-name: setting-value
+      lazyLoad: 'ondemand',
+  fade: true,
   });
 });
      
