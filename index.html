@@ -19,6 +19,8 @@
     <meta name="keywords" content="comunicacion,social media, community manager,facebook,instagram,presa">
     <link href="fonts/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="/css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/slick-theme.css"/>
 </head>
 <body>
 <!--        contenedor-->
@@ -281,8 +283,27 @@
 
 
         <div class="col-md-6" id="columna1maternity">
-          
-            <img src="img/MATERNIDAD.jpg"  class="img-responsive maternitymargins"/>
+<!--          aca carrousel-->
+<!--            <img src="img/MATERNIDAD.jpg"  class="img-responsive maternitymargins"/>-->
+         <div class="carr">
+<!--
+              <div><img src="img/MATERNIDAD.jpg"  class="img-responsive maternitymargins"/></div>
+              <div><img src="img/maternidad/mat1.jpg"  class="img-responsive maternitymargins"/></div>
+              <div><img src="img/maternidad/mat2.jpg"  class="img-responsive maternitymargins"/></div>
+              <div><img src="img/maternidad/mat3.jpg"  class="img-responsive maternitymargins"/></div>
+              <div><img src="img/maternidad/mat5.jpg"  class="img-responsive maternitymargins"/></div>
+-->
+           
+           
+<!--                       <div class="myimagecontainers">-->
+                       <div><img src="img/MATERNIDAD.jpg"  class="img-responsive maternitymargins"/></div>
+                          <div><img data-lazy="img/maternidad/mat1.jpg"  class="img-responsive maternitymargins"/></div>
+                          <div><img data-lazy="img/maternidad/mat2.jpg"  class="img-responsive maternitymargins"/></div>
+                          <div><img data-lazy="img/maternidad/mat3.jpg"  class="img-responsive maternitymargins"/></div>
+                          <div><img data-lazy="img/maternidad/mat5.jpg"  class="img-responsive maternitymargins"/></div>
+<!--                       </div>-->
+        </div>
+            
           
         </div>
 
@@ -295,8 +316,13 @@
     <div class="mysections row" id="newborn">
         
         <div class="col-md-6" id="columna1newborn">
-           
+           <div class="carr">
             <img src="img/RECIEN_NACIDOS.jpg"  class="img-responsive newbornmargins"/>
+                        <img src="img/RECIEN_NACIDOS.jpg"  class="img-responsive newbornmargins"/>
+
+                       <img src="img/RECIEN_NACIDOS.jpg"  class="img-responsive newbornmargins"/>
+
+            </div>
           
         </div>
 
@@ -337,8 +363,11 @@
  
  
          <div class="col-md-6" id="columna1children">
-           
+             <div class="carr">
              <img src="img/NINIOS.jpg"  class="img-responsive childrenmargins"/>
+             <img src="img/NINIOS.jpg"  class="img-responsive childrenmargins"/>
+             <img src="img/NINIOS.jpg"  class="img-responsive childrenmargins"/>
+             </div>
            
          </div>
  
@@ -352,8 +381,12 @@
     <div class="mysections row" id="family">
         
         <div class="col-md-6" id="columna1family">
-           
+            <div class="carr">
             <img src="img/FAMILIA.jpg"  class="img-responsive familymargins"/>
+            <img src="img/FAMILIA.jpg"  class="img-responsive familymargins"/>
+            <img src="img/FAMILIA.jpg"  class="img-responsive familymargins"/>
+            
+            </div>
           
         </div>
 
@@ -431,7 +464,7 @@
                           </div>
                           <span class="glyphicon glyphicon-pencil form-control-feedback" aria-hidden="true"></span>
                           <span id="inputGroupSuccess2Status" class="sr-only">(success)</span>
-                          <div class="help-block with-errors"></div>
+                          <div class="help-block with-errors" id="emailerror"></div>
                         </div>
                       </div>
                       
@@ -466,6 +499,10 @@
                           
             </div>
             <!--          fin contacto-->
+            
+    
+            
+            
          </div>
  <!--            fin contenedor-->
 
@@ -496,8 +533,24 @@
     <script src="js/jquery.viewportchecker.js"></script>
     <script src="js/validator.min.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
 
  <script>
+     
+     
+     $(document).ready(function(){
+  $('.carr').slick({
+//    setting-name: setting-value
+      lazyLoad: 'ondemand',
+  fade: true,
+  });
+});
+     
+     
+     
+     
+     
+     
  $(document).ready(function(){
      
         

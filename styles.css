@@ -399,11 +399,7 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
 
     }
 
-.newbornmargins {
 
-   padding: 2%;
-        
-     }
 
 .newborntitle{
 
@@ -422,11 +418,11 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
 
 }
 
-.childrenmargins {
+.newbornmargins,.childrenmargins,.familymargins {
 
-    padding: 2%;
-         
-      }
+/*   padding: 2%;*/
+        
+     } 
 
 .childrentitle{
 
@@ -446,11 +442,6 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
 
 }
 
-.familymargins {
-
-    padding: 2%;
-         
-      }
 
 .familytitle{
 
@@ -942,6 +933,33 @@ input[type=text],input[type=email] {
     width: 100%;
 }
 
+.slick-prev {
+    left: 4% !important;
+    z-index: 999;
+}
+.slick-next {
+    right: 4% !important;
+    z-index: 999;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-size: 50px !important;
+    opacity: 1 !important;
+        font-family: monospace !important;
+    color: rgb(255, 200, 128) !important;
+}
+
+.slick-prev:before {
+    content: '<' !important;
+}
+.slick-next:before {
+    content: '>' !important;
+}
+
+.slick-slide img {
+    width: 100% !important;
+    max-height: 735px !important;
+}
 
 /*Tablets*/
 /*@media (min-width: 768px) and (max-width: 991px) */
