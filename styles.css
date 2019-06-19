@@ -1136,6 +1136,31 @@ input[type=text],input[type=email] {
     {
         width: 100%;
     }
+    
+    
+            #aboutmetitle {
+            margin-top: 0%;
+            margin-bottom: 0%;
+            position: absolute;
+            top: -112%;
+            left: 43%;
+        }
+
+
+
+        .aboutmeline {
+            margin-left: 0%;
+            top: -107%;
+            left: 43%;
+        }
+
+
+        #aboutmesection {
+            margin-top: 15%;
+            margin-bottom: 0%;
+        }
+
+    
 }
 
 
