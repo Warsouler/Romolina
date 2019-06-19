@@ -248,6 +248,12 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
 
 /*Inicio  ABOUT ME*/
 
+#conteineraboutme{
+
+    margin-top: 15%;
+
+}
+
 #columna1aboutme{
 
     display:flex;
@@ -264,7 +270,7 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
     float: none ; 
     padding: 0% !important;
     align-content: center; */
-    /* height: 900px;  */
+    height: 900px; 
 
 }
 #aboutmesection {
@@ -282,9 +288,14 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
 
 #aboutmetitle{
 
-    margin-top: 5%;
+    margin-top: 12%;
     margin-bottom: 1%;
     font-size: 2.25em !important;
+}
+
+#aboutmeText_1{
+
+    margin-top: 10%
 }
 
 #blockme{
@@ -306,7 +317,7 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
     margin-left: 15%; */
     /* display: inline-block; */
 
-    width: 75%;
+    width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -777,7 +788,7 @@ font-size: 130%;
     color: #616160;
     letter-spacing: 0.1em;
     word-spacing: 0.1em;
-    width: 89%;
+    width: 86%;
     text-align: justify;
     text-indent: 20px;
     margin: auto;
@@ -838,8 +849,8 @@ font-size: 130%;
 
 
 #blockaboutmegreen{
-    margin-left: 47%;
-    margin-top: 3%;
+    margin-left: 12%;
+    margin-top: -39%;
 }
 
 .blockyellowmedium{
@@ -850,8 +861,8 @@ font-size: 130%;
 }
 
 #blockaboutmeyellow{
-        margin-top: 36%;
-    margin-left: 71%;
+    margin-top: 39%;
+    margin-left: 84%;
 }
 
 #columna1{
