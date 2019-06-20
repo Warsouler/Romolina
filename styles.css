@@ -598,13 +598,18 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
     margin-bottom: 3%;
 }
 
+#lblcomment{
+    margin-bottom: 2%;
+    left: 0.3%;
+}
+
 .form-horizontal .control-label {
     font-family: "MONTSERRAT-LIGHT";
     letter-spacing: 0.2em;
     padding-top: 7px;
     margin-bottom: 0;
     text-align: center;
-    width: 57%;
+    width: 59%;
     float: left;
     
 }
@@ -615,6 +620,11 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
 .form-control-feedback {
     line-height: 42px;
 }
+
+#labelemail{
+        left: -1%;
+}
+
 #subdiv{
         margin-top: 9em;
         margin-bottom: 6em;
@@ -633,7 +643,19 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
     letter-spacing: 0.2em;
     font-size: 4em;
         color: #ffc880;
+    display: inline;
 }
+
+#contactline{
+    width: 81px;
+        display: inline;
+    margin-left:200px;
+}
+
+#titleform{
+    margin-bottom:7%;
+}
+
 .noresize {
   resize: none; 
 }
@@ -898,12 +920,7 @@ input[type=text],input[type=email] {
     margin-left: 25%;
 }
 
-#inputGroupSuccess2{
-    width: 35%;
-    margin:0 auto;
-    float: none;
-    margin-left: -14%;
-}
+
 .has-error .form-control {
     border-color: #a94442;
     -webkit-box-shadow: none;
@@ -926,13 +943,16 @@ input[type=text],input[type=email] {
         height: 24em;
     width: 35%;
     margin:0 auto;
-    margin-left: 25%;
+        margin-left: 25.6%;
 }
 
 
-.form-group
-{
-        margin-left: 14% !important;
+
+.form-group {
+    width: 85%;
+
+    margin-left: 17.9% !important;
+
 }
 
 .help-block.with-errors
@@ -972,6 +992,10 @@ input[type=text],input[type=email] {
     max-height: 735px !important;
 }
 
+#inputSuccess3,#inputGroupSuccess2,#comment{
+    width: 493px;
+    
+}
 
 
 
@@ -1068,9 +1092,18 @@ input[type=text],input[type=email] {
 
 
 
+.lineunders{
+     width: 59px;
+    height: 8px;
+    z-index: 1;
+    position: absolute;
+    
+    
+}
 
-
-
+.greenline{
+     background: green;
+}
 
 
 
