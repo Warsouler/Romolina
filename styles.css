@@ -633,7 +633,11 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
     font-size: 2em;
     padding: 6px 224px;
     text-align: center;
-/*    margin-left: 2.8em;*/
+border-radius: 0px;
+    margin-left: 5.8%;
+    width: 494px;
+    padding: inherit;
+    padding-bottom: 6px;
 }
 
 #contactlabel{
