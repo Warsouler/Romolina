@@ -1170,7 +1170,13 @@ input[type=text],input[type=email] {
     margin-left: -3%;
 }
 
+.socf{
+    margin-right: 1%;
+}
 
+.lastcontact{
+        margin-left: 4%;
+}
 
 
 /*Tablets*/
