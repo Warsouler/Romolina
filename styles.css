@@ -468,6 +468,8 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
     height: 40px;
     background: #87C6B0;
     margin-bottom: 11%;
+    width: 97%;
+    margin-left: 1.4%
  }
 
 
@@ -640,6 +642,7 @@ border-radius: 0px;
     padding: inherit;
     padding-bottom: 6px;
     float: left;
+    margin-top: 3%;
         
 }
 
@@ -657,10 +660,11 @@ border-radius: 0px;
     width: 81px;
         display: inline;
     margin-left:200px;
+    background: #87C6B0;
 }
 
 #titleform{
-    margin-bottom:7%;
+    margin-bottom: 5%;
 }
 
 .noresize {
@@ -791,7 +795,11 @@ font-size: 130%;
     width: 100%;
 }
 
-
+#lastsocial{
+        text-align: center;
+    margin-left: -314px;
+        margin-top: 1%;
+}
 
 .blockgreen{
       width: 33px;
@@ -1124,14 +1132,43 @@ input[type=text],input[type=email] {
 }
 
 
+#blbiggreenform {
+    width: 33px;
+    height: 33px;
+    width: 70px;
+    height: 70px;
+    background-color: #80bca6;
+    position: absolute;
+    left: 18%;
+    margin-top: -510px;
+}
 
 
+#blsmallyellowform{
+    width: 45px;
+    height: 45px;
+    background-color: #ffc880;
+    position: absolute;
+    margin-top: -970px;
+    left: 5%;
+}
 
+#blbigyellowform {
+    width: 85px;
+    height: 85px;
+    background-color: #ffc880;
+    position: absolute;
+    left: 88%;
+    margin-top: -195px;
+}
 
-
-
-
-
+#blsmallgreenform {
+       left: 82%;
+    width: 43px;
+    height: 43px;
+    margin-top: -350px;
+    margin-left: -3%;
+}
 
 
 
