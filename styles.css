@@ -1012,6 +1012,17 @@ input[type=text],input[type=email] {
     max-height: 735px !important;
 }
 
+
+.slick-prev {
+    top: inherit !important;
+    margin-top: 38%;
+}
+
+.slick-next {
+    top: inherit !important;
+    margin-top: -38%;
+}
+
 #inputSuccess3,#inputGroupSuccess2,#comment{
     width: 493px;
     
