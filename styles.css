@@ -226,17 +226,32 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
     position: absolute;
     left: 61%;
     right: 15%;
-    margin-top: 12%;
+    margin-top: 13%;
     color: white;
-    font-size: 3em;
+    font-size: 3.2em;
     z-index: 2;
+    width: 19%;
+    line-height: 1.2em;
 }
 
+#linetextoportada{
+   font-family: "MONTSERRAT-SEMIBOLD";
+    position: absolute;
+    left: 61%;
+    right: 15%;
+    margin-top: inherit;
+    color: white;
+    font-size: 3.5em;
+    line-height: 1.1em;
+    z-index: 2 !important;
+    width: 4.2%;
+    top: 652px;
+}
 .portadalineposition{
 
     left: 61%;
     top: 15%;
-    margin-top: 25%;
+    margin-top: initial;
     z-index: 2 !important;
 
 }
@@ -885,6 +900,7 @@ font-size: 130%;
     height: 8px;
     z-index: 1;
     position: absolute;
+    
 }
 .yellowline{
     background-color: rgb(255, 200, 128);
@@ -1287,6 +1303,15 @@ input[type=text],input[type=email] {
             margin-top: 15%;
             margin-bottom: 0%;
         }
+    
+    #textoportada{
+        font-size: 3em;
+        width: 30%;
+    }
+    #linetextoportada{
+        top: 541px;
+    width: 81px;
+    }
 
     
 }
