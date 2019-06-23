@@ -610,7 +610,9 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
     font-family: "MONTSERRAT-LIGHT";
     letter-spacing: 0.2em;
     padding-top: 7px;
-    margin-bottom: -1px;
+/*    margin-bottom: -1px;*/
+        margin-bottom: -31px;
+
     text-align: center;
     width: 59%;
     float: left;
@@ -621,8 +623,13 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
     border-radius: 0px;
 }
 .form-control-feedback {
-    line-height: 42px;
+    line-height: 90px;
 }
+
+#comment+span{
+    line-height: 24px;
+}
+
 
 #labelemail{
         left: -3%;
@@ -1187,6 +1194,22 @@ input[type=text],input[type=email] {
 
 .lastcontact{
         margin-left: 4%;
+}
+
+
+#inputSuccess3,#inputGroupSuccess2,#comment
+{
+    box-shadow:none;
+   
+
+}
+
+#inputSuccess3,#inputGroupSuccess2
+{
+    box-shadow:none;
+    height: 36px;
+    margin-top: 6%;
+
 }
 
 
