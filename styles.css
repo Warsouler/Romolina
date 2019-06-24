@@ -374,11 +374,70 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
     font-size: 1.5em;
     letter-spacing: 0.25em;
     /* word-spacing: 0.1em; */
-    
-    
+     
+
+}
+#blockgreencuadricula1{
+
+    z-index: 3;
+    left: 11%;
+    top: -15px;
 
 }
 
+#blockgreen2cuadricula1{
+
+    z-index: 3;
+    left: 7px;
+    top: 85%;
+
+}
+
+#blockyellowcuadricula2{
+
+    z-index: 3;
+    left: 5%;
+    top: 93%;
+}
+
+#blockgreencuadricula3{
+    
+    z-index: 3;
+    left: 13%;
+    top: 97%;
+}
+#blockyellow1cuadricula3{
+    
+    z-index: 3;
+    left: 6%;
+    top: -5%;
+}
+#blockyellow2cuadricula3{
+    
+    z-index: 3;
+    left: 85%;
+    top: 94%;
+
+}
+
+
+
+
+#blockgreen1cuadricula4{
+    
+    z-index: 3;
+    left: 149px;
+    top: -3%;
+
+}
+
+
+#blockgreen2cuadricula4{
+    
+    z-index: 3;
+    left: 89%;
+    top: 96%;
+}
 
 
 /*Fin Cuadricula*/
