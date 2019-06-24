@@ -359,11 +359,13 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
 #cuadricula_first_row{
 
     margin-bottom: 3%; 
+    margin-left: 1.5%;
 }
 
 #cuadricula_second_row{
 
     margin-bottom: 10%; 
+    margin-left: 1.5%;
 }
 
 .hoverscuadricula{
@@ -1390,6 +1392,27 @@ input[type=text],input[type=email] {
         }
     
     
+    
+    
+    
+    
+    
+    #cuadricula_first_row {
+    margin-bottom: 0%;
+    }
+    
+    #cuadricula_second_row {
+    margin-bottom: -20%;
+    }
+    
+    .columncuadricula{
+        margin-bottom: 4%;
+    }
+    
+    .maternitytitle {
+        margin-top: 40%;
+        margin-bottom: 5%;
+    }
     
         
 }
