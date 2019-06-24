@@ -1230,7 +1230,57 @@ input[type=text],input[type=email] {
 
 
 /*Tablets*/
-/*@media (min-width: 768px) and (max-width: 991px) */
+@media (min-width: 768px) and (max-width: 991px)
+{
+    
+    .navbar-collapse {
+    width: 118% !important;
+    margin-top: 1em !important;
+    margin-left: -9.5% !important;
+    }
+
+.navbar-nav>li {
+    float: none;
+    text-align: center;
+    display: inline;
+    font-family: "MONTSERRAT-LIGHT";
+    font-size: 120%;
+    font-size: 17px;
+    margin-left: 0px;
+    width: 537%;
+    max-width: 537%;
+    }
+    
+    .hovereffect .overlay {
+    transform: inherit;
+    }
+    
+    #blockheader {
+    margin-top: -4%;
+    }
+    
+    
+}
+
+@media (min-width: 768px) and (max-width: 870px)
+{
+    .navbar-nav>li {
+    font-size: 15px;
+
+    }
+    
+    .navbar-collapse {
+    width: 120% !important;
+    margin-top: 1em !important;
+    margin-left: -70px !important;
+    }
+    
+    .nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 10px;
+    }
+}
 
 @media (max-width: 991px)
 {
@@ -1238,9 +1288,7 @@ input[type=text],input[type=email] {
                 background: green;
         }
     
-    .hovereffect .overlay {
-    transform: inherit;
-    }
+    
 }
 
 
