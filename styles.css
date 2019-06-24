@@ -464,6 +464,22 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
     
 }
 
+#blockmaternitygreen{
+
+    z-index: 3;
+    left: 36%;
+    top: 93%;
+}
+
+#blockmaternityyellow{
+    
+    z-index: 3;
+    left: 76px;
+    top: -2%;
+}
+
+
+
 /*Fin maternidad*/
 
 /*inicio recien nacidos*/
