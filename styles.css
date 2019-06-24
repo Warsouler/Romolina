@@ -1271,6 +1271,7 @@ input[type=text],input[type=email] {
 
 .lastcontact{
         margin-left: 4%;
+    margin-top: 0.5%;
 }
 
 
@@ -1412,6 +1413,44 @@ input[type=text],input[type=email] {
     .maternitytitle {
         margin-top: 40%;
         margin-bottom: 5%;
+    }
+    
+    .columncuadricula {
+    margin-left: -5px;
+    margin-right: 0%;
+    }
+    
+    #aboutmesection {
+        margin-bottom: -8%;
+        height: 100%;
+    }
+    
+    .newborntitle {
+    margin-top: -80%;
+    margin-bottom: -6%;
+    }
+    
+    .childrentitle {
+    margin-top: 55%;
+    margin-bottom: 7%;
+    }
+    
+    
+    .familytitle {
+    margin-top: -85%;
+    margin-bottom: 84%;
+    }
+    
+    .form-horizontal .has-feedback .form-control-feedback {
+        right: -121px;
+    }
+    
+    #blbiggreenform {
+    left: 11%;
+    }
+    
+    #blsmallgreenform {
+    margin-left: 6%;
     }
     
         
