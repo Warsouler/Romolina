@@ -1256,10 +1256,83 @@ input[type=text],input[type=email] {
     }
     
     #blockheader {
-    margin-top: -4%;
+    margin-top: -4.5%;
+            margin-left: -1%;
+    }
+    
+    #blockheaderyellow {
+    margin-top: -3.9%;
+}
+    
+    
+    #sociallinks {
+    margin-left: 45%;
+}
+    
+    
+
+    
+   #textoportada {
+    font-size: 3.1em;
+    width: 42%;
+}
+    
+    #linetextoportada {
+    font-family: "MONTSERRAT-SEMIBOLD";
+    position: absolute;
+    left: 61%;
+    right: 15%;
+    margin-top: inherit;
+    color: white;
+    font-size: 3.5em;
+    line-height: 1.1em;
+    z-index: 2 !important;
+    width: 8.2%;
+        top: 64.3%;
+    }
+    
+    #blockaboutmeyellow+img{
+        margin-top: 15%;
+    }
+    
+    #blockPORTADAgreen {
+    margin-left: 86%;
+    margin-top: 39%;
+    z-index: 3;
+    }
+    
+    #blockPORTADAyellow {
+    margin-left: 92%;
+    margin-top: 38%;
+    z-index: 3;
     }
     
     
+        .aboutmeline {
+            margin-left: 0%;
+            top: -97%;
+            left: 40%;
+        }
+        #aboutmetitle {
+            margin-top: 0%;
+            margin-bottom: 0%;
+            position: absolute;
+            top: -101.5%;
+            left: 40%;
+        }
+   
+        #blockaboutmegreen {
+            margin-top: -32%;
+        }
+    
+        #blockaboutmeyellow {
+            margin-top: 46%;
+            margin-left: 84%;
+        }
+    
+    
+    
+        
 }
 
 @media (min-width: 768px) and (max-width: 870px)
