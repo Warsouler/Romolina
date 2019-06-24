@@ -1483,6 +1483,7 @@ input[type=text],input[type=email] {
         }
     
     
+    
 }
 
 
@@ -1504,6 +1505,44 @@ input[type=text],input[type=email] {
    .hovereffect .overlay {
     transform: inherit;
     }
+    
+    #btnmenubar {
+    background: #ffc880;
+    border-color: white;
+    border-radius: 0px;
+    }
+    #btnmenubar:hover {
+    background: #ffc880;
+    border-color: white;
+    border-radius: 0px;
+    }
+    
+    
+    .navbar-inverse .navbar-nav>li>a {
+        columns: #616160;
+        display: inherit;
+        text-align: center !important;
+        display: block;
+        font-family: "MONTSERRAT-SEMIBOLD";
+        font-size: 100%;
+    }
+    .famenu {
+         display: inline;
+    float: right;
+    }
+    
+    
+    .navbar-collapse {
+    border: 1px solid transparent;
+    margin-left: 0% !important;
+    border-color: #ffc880 !important; 
+    text-align: center;
+    width: 100%;
+    border-width: 4px;
+    margin-top: 3%;
+    }
+    
+    
 }
     
  
