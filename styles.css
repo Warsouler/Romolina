@@ -470,7 +470,8 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
 
     z-index: 3;
     left: 36%;
-    top: 93%;
+    margin-top: 71.3%;
+
 }
 
 #blockmaternityyellow{
@@ -511,6 +512,23 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
     
 }
 
+
+#blocknewborngreen{
+
+    z-index: 3;
+    left: 76px;
+    top: -2%;
+
+}
+
+#blocknewbornyellow{
+
+    z-index: 3;
+    left: 96%;
+    top: 10%;
+}
+
+
 /*Fin recien nacidos*/
 
 /*inicio niños*/
@@ -533,6 +551,25 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
     margin-bottom:30%;
     
 }
+
+
+#blockchildrengreen{
+
+    z-index: 3;
+    left: 83%;
+    top: 98%;
+
+}
+
+#blockchildrenyellow{
+
+    z-index: 3;
+    left: 122px;
+    top: 93%;
+
+}
+
+
 
 /*Fin niños*/
 
