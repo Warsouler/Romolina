@@ -489,11 +489,19 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
     margin-left: -351px;
 }
 
+#newbornline {
+    margin-top: -28%;
+    width: 81px;
+    display: inline;
+    margin-left: 25.7%;
+}
+
 
 #maternity_title
 {text-align: center;
     margin-top: 18%;
 }
+
 
 
 /*Fin maternidad*/
@@ -539,6 +547,25 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
     z-index: 3;
     left: 96%;
     top: 10%;
+}
+
+
+
+#newborn_title {
+margin-top: 14%;
+    text-align: center;
+}
+#newbornline {
+    margin-top: 50px;
+    width: 81px;
+    display: inline;
+    margin-left: -437px;
+}
+
+.newborntitle{
+    margin-top: 35%;
+    margin-bottom: 30%;
+    display: inline;
 }
 
 
