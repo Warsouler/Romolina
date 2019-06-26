@@ -454,7 +454,7 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
 
 .maternitymargins {
 
-   padding: 2%;
+/*   padding: 2%;*/
 
     
 }
@@ -1238,14 +1238,20 @@ input[type=text],input[type=email] {
     width: 143%;
 }
 
+
 .slick-prev {
+    top: 53% !important;
+    margin-top: 0%;
     left: 4% !important;
     z-index: 999;
 }
 .slick-next {
-    right: 4% !important;
+    top: 53% !important;
+    right: 8% !important;
     z-index: 999;
 }
+
+
 
 .slick-prev:before, .slick-next:before {
     font-size: 50px !important;
@@ -1262,20 +1268,10 @@ input[type=text],input[type=email] {
 }
 
 .slick-slide img {
+    max-width: 892px;
     width: 100% !important;
-    max-height: 735px !important;
 }
 
-
-.slick-prev {
-    top: inherit !important;
-    margin-top: 38%;
-}
-
-.slick-next {
-    top: inherit !important;
-    margin-top: -38%;
-}
 
 #inputSuccess3,#inputGroupSuccess2,#comment{
     width: 493px;
