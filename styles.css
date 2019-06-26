@@ -463,6 +463,7 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
 
     margin-top: 35%;
     margin-bottom:30%;
+    display: inline;
     
 }
 
@@ -481,6 +482,18 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
     top: -2%;
 }
 
+#maternidadline {
+    margin-top: 50px;
+    width: 81px;
+    display: inline;
+    margin-left: -351px;
+}
+
+
+#maternity_title
+{text-align: center;
+    margin-top: 18%;
+}
 
 
 /*Fin maternidad*/
