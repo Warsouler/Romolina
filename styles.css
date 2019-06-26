@@ -470,8 +470,10 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
 #blockmaternitygreen{
 
     z-index: 3;
-    left: 36%;
+    left: 35%;
     margin-top: 71.3%;
+    width: 40px;
+    height: 40px;
 
 }
 
@@ -571,6 +573,37 @@ margin-top: 14%;
 
 /*Fin recien nacidos*/
 
+
+
+
+/*between*/
+
+
+.spacequad{
+    display: inline-block;
+}
+
+#greenbetweensq {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    left: 92%;
+    margin-top: -16%;
+}
+
+#yellowbetweensq {
+    display: inline-block;
+    margin-top: -158px;
+    left: 51%;
+}
+
+
+
+/*fin between*/
+
+
+
+
 /*inicio niños*/
 
 #children{
@@ -597,17 +630,39 @@ margin-top: 14%;
 
     z-index: 3;
     left: 83%;
-    top: 98%;
-
+    margin-top: 36.8%;
 }
 
 #blockchildrenyellow{
 
     z-index: 3;
     left: 122px;
-    top: 93%;
+    margin-top: 34.5%;
 
 }
+
+
+#children_title {
+margin-top: 14%;
+    text-align: center;
+}
+
+
+.childrentitle{
+    margin-top: 35%;
+    margin-bottom: 30%;
+    display: inline;
+}
+
+
+#childrenline {
+    margin-top: 50px;
+    width: 81px;
+    display: inline;
+    margin-left: -161px;
+}
+
+
 
 
 
@@ -628,6 +683,28 @@ margin-top: 14%;
     margin-top: 35%;
     margin-bottom:30%;
     
+}
+
+
+
+#family_title {
+margin-top: 14%;
+    text-align: center;
+}
+
+
+.familytitle{
+    margin-top: 35%;
+    margin-bottom: 30%;
+    display: inline;
+}
+
+
+#familyline {
+    margin-top: 50px;
+    width: 81px;
+    display: inline;
+    margin-left: -208px;
 }
 
 /*Fin familia*/
