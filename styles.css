@@ -1545,6 +1545,39 @@ input[type=text],input[type=email] {
 }
 
 
+#customnext{
+    font-size: 50px !important;
+    opacity: 1 !important;
+    font-family: monospace !important;
+    color: #80bca6 !important;
+    background: transparent;
+    margin-top: 23%;
+    margin-left: 94%;
+    border: none;
+}
+
+#customnext:before{
+
+    content: '>' !important;
+
+}
+
+#customprevious{
+        font-size: 50px !important;
+    opacity: 1 !important;
+    font-family: monospace !important;
+    color: #80bca6 !important;
+    background: transparent;
+    margin-top: -3.8%;
+    margin-left: 3%;
+    border: none;
+}
+
+#customprevious:before{
+
+    content: '<' !important;
+
+}
 
 
 
