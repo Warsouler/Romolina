@@ -782,14 +782,59 @@ $('a.socllink').click(function(){
      
      $('#customnext').on('click',function(event){
             var currentimg=$('#mymy').attr('src');
-
+            
+         var maximages=$('#mymy').attr('data-max-img');
+         var datacaller=$('#mymy').attr('data-caller');
+         
+         
+         var countdigits=maximages.length;
+         
+         
          var s = currentimg.substring(0, currentimg.lastIndexOf("."));
+//         var temp = currentimg.substring(0, currentimg.lastIndexOf("."));
          s=s.substring(0, s.lastIndexOf("-f"));
-//         s=s.substring(s.length-1, s.length);
+         s=s.substring(s.length-countdigits, s.length);
+         
+         if (s.lastIndexOf('b')==0 || s.lastIndexOf('t')==0 || s.lastIndexOf('n') ==0 || s.lastIndexOf('a')==0   )
+            s=s.substring(s.length-1, s.length);
+             
+             
+//         var tempimage=
+         if(s<maximages)
+         {
+             s=s+1;
+         }
+         else if(s==maximages)
+             {
+                 s=1;
+             }
+             
+//         temp=temp+s+".jpg";
+         
+         $('#mymy').attr('src',temp);
+         
+         if(datacaller=="maternidad")
+             {
+                 
+             }
+             else if(datacaller=="newborn")
+                  {
+                 
+             }
+                 else if(datacaller=="children")
+                      {
+                 
+             }
+                     else if(datacaller=="family")
+                          {
+                 
+             }
+         
+         
           alert(s);
          
-         if($(this).hasClass('newbornmargins'))
-             alert("si");
+//         if($(this).hasClass('newbornmargins'))
+//             alert("si");
          
          
          });
