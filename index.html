@@ -315,12 +315,13 @@
                           <div><img data-lazy="img/maternidad/mat1.jpg"  class="img-responsive maternitymargins imgcar"/></div>
                           <div><img data-lazy="img/maternidad/mat2.jpg"  class="img-responsive maternitymargins imgcar"/></div>
                           <div><img data-lazy="img/maternidad/mat3.jpg"  class="img-responsive maternitymargins imgcar"/></div>
+                          <div><img data-lazy="img/maternidad/mat4.jpg"  class="img-responsive maternitymargins imgcar"/></div>
                           <div><img data-lazy="img/maternidad/mat5.jpg"  class="img-responsive maternitymargins imgcar"/></div>
                           <div><img data-lazy="img/maternidad/mat6.jpg"  class="img-responsive maternitymargins imgcar"/></div>
                           <div><img data-lazy="img/maternidad/mat7.jpg"  class="img-responsive maternitymargins imgcar"/></div>
                           <div><img data-lazy="img/maternidad/mat8.jpg"  class="img-responsive maternitymargins imgcar"/></div>
                           <div><img data-lazy="img/maternidad/mat9.jpg"  class="img-responsive maternitymargins imgcar"/></div>
-                          <div><img data-lazy="img/maternidad/mat4.jpg"  class="img-responsive maternitymargins imgcar"/></div>
+                          
 <!--                       </div>-->
         </div>
             
@@ -360,6 +361,7 @@
 <!--            <img src="img/RECIEN_NACIDOS.jpg"  class="img-responsive newbornmargins"/>-->
 
                         <div><img data-lazy="img/recien/recien1.jpg"  class="img-responsive newbornmargins imgcar"/></div>
+                        <div><img data-lazy="img/recien/recien2.jpg"  class="img-responsive newbornmargins imgcar"/></div>
                         <div><img data-lazy="img/recien/recien3.jpg"  class="img-responsive newbornmargins imgcar"/></div>
                         <div><img data-lazy="img/recien/recien4.jpg"  class="img-responsive newbornmargins imgcar"/></div>
                         <div><img data-lazy="img/recien/recien5.jpg"  class="img-responsive newbornmargins imgcar"/></div>
@@ -788,7 +790,6 @@ $('a.socllink').click(function(){
          
          
          var s = currentimg.substring(0, currentimg.lastIndexOf("."));
-//         var temp = currentimg.substring(0, currentimg.lastIndexOf("."));
          s=s.substring(0, s.lastIndexOf("-f"));
          s=s.substring(s.length-countdigits, s.length);
          s=callerstrategy(s,datacaller);
@@ -796,25 +797,11 @@ $('a.socllink').click(function(){
   
          s=parseInt(s);
 
-         if(s<parseInt(maximages))
-         {
-             s=s+1;
-         }
-         else if(s==maximages)
-             {
-                 s=1;
-             }
+         s=increasedecrease(s,true,maximages);
          
-          if (currentimg.lastIndexOf('b')!=0 && currentimg.lastIndexOf('b')!=-1)
-            {
-               var index= currentimg.lastIndexOf('bb');
-                var temp= currentimg.substring(0,index);
-                
-                temp=temp+"bb"+s+"-f"+".jpg";
-                
-                $('#mymy').attr('src',temp);
-
-            }         
+         executesrcstrategy(s,datacaller,currentimg);
+         
+         
          });
      
      
@@ -850,20 +837,107 @@ $('a.socllink').click(function(){
          
      }
      
+     
+     function executesrcstrategy(s,datacaller,currentimg)
+     {
          
+         
+         if(datacaller=="maternidad")
+             {
+                  var index= currentimg.lastIndexOf('t');
+                var temp= currentimg.substring(0,index);
+                
+                temp=temp+"t"+s+"-f"+".jpg";
+                
+                $('#mymy').attr('src',temp);
+             }
+             else if(datacaller=="newborn")
+                  {
+                      var index= currentimg.lastIndexOf('n');
+                var temp= currentimg.substring(0,index);
+                
+                temp=temp+"n"+s+"-f"+".jpg";
+                
+                $('#mymy').attr('src',temp);
+                 
+                }
+                 else if(datacaller=="children")
+                      {
+                var index= currentimg.lastIndexOf('bb');
+                var temp= currentimg.substring(0,index);
+                
+                temp=temp+"bb"+s+"-f"+".jpg";
+                
+                $('#mymy').attr('src',temp);
+                 
+                    }
+                     else if(datacaller=="family")
+                          {
+                              
+                            var index= currentimg.lastIndexOf('a');
+                var temp= currentimg.substring(0,index);
+                
+                temp=temp+"a"+s+"-f"+".jpg";
+                
+                $('#mymy').attr('src',temp);
+                 
+                            }
+         
+     }
+     
+     
+     
+     function increasedecrease(s,increase,maximages)
+     {
+         if(increase)
+             {
+                     if(s<parseInt(maximages))
+                     {
+                         s=s+1;
+                     }
+                     else if(s==maximages)
+                         {
+                             s=1;
+                         }
+             }
+            else
+            {
+                if(s!=1)
+                     {
+                         s=s-1;
+                     }
+                     else 
+                         {
+                             s=maximages;
+                         }
+                     
+            }
+         
+         return s;
+     }
+     
 
-//         
-//         
-//      
-         
-     
-     
-     
      
      
      
      $('#customprevious').on('click',function(event){
-            
+            var currentimg=$('#mymy').attr('src');        
+         var maximages=$('#mymy').attr('data-max-img');
+         var datacaller=$('#mymy').attr('data-caller');
+         var countdigits=maximages.length;
+         
+         
+         var s = currentimg.substring(0, currentimg.lastIndexOf("."));
+         s=s.substring(0, s.lastIndexOf("-f"));
+         s=s.substring(s.length-countdigits, s.length);
+         s=callerstrategy(s,datacaller);
+             
+  
+         s=parseInt(s);
+
+         s=increasedecrease(s,false,maximages);
+         
+         executesrcstrategy(s,datacaller,currentimg);
          
          
          });
