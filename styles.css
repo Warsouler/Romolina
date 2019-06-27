@@ -1476,6 +1476,37 @@ input[type=text],input[type=email] {
 }
 
 
+
+@-moz-document url-prefix() 
+    {
+          #blockaboutmegreen {
+                    margin-left: 12%;
+                    margin-top: -78%;
+                }
+        
+        
+        #blockaboutmeyellow {
+            margin-top: 78%;
+            margin-left: 84%;
+        }
+      
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Tablets*/
 @media (min-width: 768px) and (max-width: 991px)
 {
