@@ -1527,6 +1527,8 @@ input[type=text],input[type=email] {
   right: 0;
   margin: auto;
       position: fixed;
+    max-width: 95%;
+    max-height: 95%;
 }
 
 .fa-close{
@@ -1537,8 +1539,8 @@ input[type=text],input[type=email] {
     -webkit-font-smoothing: antialiased;
     font-size: 3em;
     -moz-osx-font-smoothing: grayscale;
-    margin-left: 89%;
-    margin-top: 3%;
+        margin-left: 94%;
+    margin-top: 1%;
     color: #80bca6;
 }
 
