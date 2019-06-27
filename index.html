@@ -300,7 +300,7 @@
 
 <!--          aca carrousel-->
 <!--            <img src="img/MATERNIDAD.jpg"  class="img-responsive maternitymargins"/>-->
-         <div class="carr" data-max-img="9">
+         <div class="carr" data-max-img="9" data-caller="maternidad">
 <!--
               <div><img src="img/MATERNIDAD.jpg"  class="img-responsive maternitymargins"/></div>
               <div><img src="img/maternidad/mat1.jpg"  class="img-responsive maternitymargins"/></div>
@@ -356,7 +356,7 @@
             <div id="blocknewbornyellow" class="blockyellowmedium"></div>
 
 
-           <div class="carr" data-max-img="14">
+           <div class="carr" data-max-img="14" data-caller="newborn">
 <!--            <img src="img/RECIEN_NACIDOS.jpg"  class="img-responsive newbornmargins"/>-->
 
                         <div><img data-lazy="img/recien/recien1.jpg"  class="img-responsive newbornmargins imgcar"/></div>
@@ -424,7 +424,7 @@
          
             <div id="blockchildrenyellow" class="blockyellowmedium"></div>
 
-             <div class="carr" data-max-img="22">
+             <div class="carr" data-max-img="22" data-caller="children">
 <!--             <img src="img/NINIOS.jpg"  class="img-responsive childrenmargins"/>-->
              <div><img data-lazy="img/bebes/bb1.jpg"  class="img-responsive childrenmargins imgcar"/></div>
              <div><img data-lazy="img/bebes/bb2.jpg"  class="img-responsive childrenmargins imgcar"/></div>
@@ -465,7 +465,7 @@
     <div class="mysections row" id="family">
         
         <div class="col-md-6" id="columna1family">
-            <div class="carr" data-max-img="4">
+            <div class="carr" data-max-img="4" data-caller="family">
             <div><img data-lazy="img/familia/familia1.jpg"  class="img-responsive familymargins imgcar"/></div>
             <div><img data-lazy="img/familia/familia2.jpg"  class="img-responsive familymargins imgcar"/></div>
             <div><img data-lazy="img/familia/familia3.jpg"  class="img-responsive familymargins imgcar"/></div>
@@ -615,7 +615,7 @@
            <div id="fullimagediv">
                <i class="fa fa-close" aria-hidden="true"></i>
                
-                           <img src="img/familia/familia1.jpg" id="mymy"  class="img-responsive"/>
+            <img src="" id="mymy" data-caller="" data-max-img="" class="img-responsive"/>
             <button class="" aria-label="Next" type="button" style="display: block;" id="customnext"></button>
 
 
@@ -748,22 +748,58 @@ $('a.socllink').click(function(){
      $('#fullimagediv').on('click',function(event){
          var modal = document.getElementById('fullimagediv')
           if (event.target == modal) {
+              
+              
+              $('#mymy').attr('src','');
+              
+              
+              
             $('#fullimagediv').css("display","none");
-  
+            
             }
          });
      
+     
+     
+     
+     
+     
      $('.imgcar').on('click',function(event){
             var currentimg=$(this).attr('src');
-
          var s = currentimg.substring(0, currentimg.lastIndexOf("."));
          s=s+"-f.jpg";
          
          
          $('#mymy').attr('src',s);
+         $('#mymy').attr('data-caller','yo');
          $('#fullimagediv').css("display","block");
          
+         $('#mymy').attr('data-max-img',$(this).parent().parent().parent().parent().attr('data-max-img'));
+         $('#mymy').attr('data-caller',$(this).parent().parent().parent().parent().attr('data-caller'));
          });
+     
+     
+     
+     $('#customnext').on('click',function(event){
+            var currentimg=$('#mymy').attr('src');
+
+         var s = currentimg.substring(0, currentimg.lastIndexOf("."));
+         s=s.substring(0, s.lastIndexOf("-f"));
+//         s=s.substring(s.length-1, s.length);
+          alert(s);
+         
+         if($(this).hasClass('newbornmargins'))
+             alert("si");
+         
+         
+         });
+     
+     $('#customprevious').on('click',function(event){
+            
+         
+         
+         });
+     
          
     
    
