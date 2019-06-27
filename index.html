@@ -781,12 +781,9 @@ $('a.socllink').click(function(){
      
      
      $('#customnext').on('click',function(event){
-            var currentimg=$('#mymy').attr('src');
-            
+         var currentimg=$('#mymy').attr('src');        
          var maximages=$('#mymy').attr('data-max-img');
          var datacaller=$('#mymy').attr('data-caller');
-         
-         
          var countdigits=maximages.length;
          
          
@@ -794,13 +791,12 @@ $('a.socllink').click(function(){
 //         var temp = currentimg.substring(0, currentimg.lastIndexOf("."));
          s=s.substring(0, s.lastIndexOf("-f"));
          s=s.substring(s.length-countdigits, s.length);
-         
-         if (s.lastIndexOf('b')==0 || s.lastIndexOf('t')==0 || s.lastIndexOf('n') ==0 || s.lastIndexOf('a')==0   )
-            s=s.substring(s.length-1, s.length);
+         s=callerstrategy(s,datacaller);
              
-             
-//         var tempimage=
-         if(s<maximages)
+  
+         s=parseInt(s);
+
+         if(s<parseInt(maximages))
          {
              s=s+1;
          }
@@ -808,36 +804,63 @@ $('a.socllink').click(function(){
              {
                  s=1;
              }
-             
-//         temp=temp+s+".jpg";
          
-         $('#mymy').attr('src',temp);
+          if (currentimg.lastIndexOf('b')!=0 && currentimg.lastIndexOf('b')!=-1)
+            {
+               var index= currentimg.lastIndexOf('bb');
+                var temp= currentimg.substring(0,index);
+                
+                temp=temp+"bb"+s+"-f"+".jpg";
+                
+                $('#mymy').attr('src',temp);
+
+            }         
+         });
+     
+     
          
-         if(datacaller=="maternidad")
+     function callerstrategy(s, datacaller)
+     {
+             if(datacaller=="maternidad")
              {
-                 
+                 if (s.lastIndexOf('t')==0 )
+                    s=s.substring(s.length-1, s.length);
              }
              else if(datacaller=="newborn")
                   {
+                      if (s.lastIndexOf('n')==0)
+            s=s.substring(s.length-1, s.length);
                  
-             }
+                }
                  else if(datacaller=="children")
                       {
+                          if (s.lastIndexOf('b') ==0)
+                        s=s.substring(s.length-1, s.length);
                  
-             }
+                    }
                      else if(datacaller=="family")
                           {
+                              
+                            if (s.lastIndexOf('a')==0)
+                            s=s.substring(s.length-1, s.length);
                  
-             }
+                            }
          
+         return s;
          
-          alert(s);
+     }
+     
          
-//         if($(this).hasClass('newbornmargins'))
-//             alert("si");
+
+//         
+//         
+//      
          
-         
-         });
+     
+     
+     
+     
+     
      
      $('#customprevious').on('click',function(event){
             
