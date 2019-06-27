@@ -611,7 +611,16 @@
             <!--          fin contacto-->
             
     
-            
+           
+           <div id="fullimagediv">
+               <i class="fa fa-close" aria-hidden="true"></i>
+               
+                           <img src="img/familia/familia1.jpg" id="mymy"  class="img-responsive"/>
+
+               
+               
+           </div>
+           
             
          </div>
  <!--            fin contenedor-->
@@ -723,6 +732,27 @@ $('a.socllink').click(function(){
   
     });
      
+     
+     $('.fa-close').on('click',function(){
+         
+         $('#fullimagediv').css("display","none");
+         
+     });
+     
+     
+     
+     
+     $('#fullimagediv').on('click',function(event){
+         var modal = document.getElementById('fullimagediv')
+          if (event.target == modal) {
+    $('#fullimagediv').css("display","none");
+  
+  }
+         
+    
+         
+         
+     });
    
 
 });
