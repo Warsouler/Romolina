@@ -191,7 +191,7 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
 
 #blockmsjtransp {
     width: 43%;
-    height: 29%;
+        height: 312px;
     background-color: black;
     opacity: 0.3;
     filter: alpha(opacity=30);
@@ -471,7 +471,7 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
 
     z-index: 3;
     left: 35%;
-    margin-top: 71.3%;
+        margin-top: 70.3%;
     width: 40px;
     height: 40px;
 
@@ -481,19 +481,19 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
     
     z-index: 3;
     left: 76px;
-    top: -2%;
+margin-top: -35px;
 }
 
 #maternidadline {
-    margin-top: 50px;
-    width: 81px;
+        margin-top: 50px;
+    width: 71px;
     display: inline;
-    margin-left: -351px;
+    margin-left: -336px;
 }
 
 #newbornline {
     margin-top: -28%;
-    width: 81px;
+    width: 71px;
     display: inline;
     margin-left: 25.7%;
 }
@@ -546,9 +546,11 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
 
 #blocknewbornyellow{
 
-    z-index: 3;
-    left: 96%;
+   z-index: 3;
+    left: 91%;
     top: 10%;
+    width: 60px;
+    height: 60px;
 }
 
 
@@ -559,7 +561,7 @@ margin-top: 19%;
 }
 #newbornline {
     margin-top: 50px;
-    width: 81px;
+    width: 71px;
     display: inline;
     margin-left: -437px;
 }
@@ -593,10 +595,27 @@ margin-top: 19%;
 
 #yellowbetweensq {
     display: inline-block;
-    margin-top: -158px;
+    margin-top: -181px;
     left: 51%;
+    width: 90px;
+    height: 90px;
 }
 
+
+#blockentre1yellow{
+    display: inline-block;
+    margin-top: -17%;
+    left: 4%;
+}
+
+
+#blockentre2yellow{
+    display: inline-block;
+    margin-top: -10%;
+    left: 89%;
+    width: 90px;
+    height: 90px;
+}
 
 
 /*fin between*/
@@ -627,17 +646,17 @@ margin-top: 19%;
 
 
 #blockchildrengreen{
-
     z-index: 3;
-    left: 83%;
-    margin-top: 36.8%;
+    left: -22%;
+    margin-top: 69.6%;
 }
 
 #blockchildrenyellow{
 
     z-index: 3;
-    left: 122px;
-    margin-top: 34.5%;
+     left: -82%; 
+    margin-top: 0%;
+    top: 93.3%;
 
 }
 
@@ -657,7 +676,7 @@ margin-top: 18%;
 
 #childrenline {
     margin-top: 50px;
-    width: 81px;
+    width: 71px;
     display: inline;
     margin-left: -161px;
 }
@@ -702,7 +721,7 @@ margin-top: 18%;
 
 #familyline {
     margin-top: 50px;
-    width: 81px;
+    width: 71px;
     display: inline;
     margin-left: -208px;
 }
