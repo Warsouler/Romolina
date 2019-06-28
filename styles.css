@@ -2030,6 +2030,51 @@ input[type=text],input[type=email] {
     margin-bottom: 6%;
     }
     
+    #aboutmetitle{
+            margin-top: -876px;
+    }
+    #blockme {
+    width: 100%;
+    margin-top: 0%;
+    }
+    
+    .pharagraphs {
+    font-family: "MONTSERRAT-LIGHT";
+    font-size: 1em;
+    color: #616160;
+    letter-spacing: 0.1em;
+    word-spacing: 0.1em;
+    width: 100%;
+    text-align: center;
+    text-indent: 20px;
+    margin: auto;
+    line-height: 200%;
+}
+    
+    .samehight {
+    height: auto;
+}
+
+#aboutmetitle {
+        margin-top: -106%;
+}
+    
+   #columna1aboutme {
+    display: flex;
+    align-items: center;
+    margin-top: 160px;
+    }
+    
+    #yo{
+        margin-bottom: 104%;
+    }
+    
+    .aboutmeline {
+    margin-left: 0%;
+/*    top: -97%;*/
+    left: 40%;
+    }
+    
     
 }
     
