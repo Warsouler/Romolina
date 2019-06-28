@@ -28,6 +28,10 @@ src: url("fonts/MONTSERRAT-SEMIBOLD.TTF" )format("truetype");
 }
 
 
+#sociallinksmobile{
+    display: none;
+}
+
 #inicio{
     margin-top: 6%;
 }
@@ -1893,6 +1897,7 @@ input[type=text],input[type=email] {
     background: #ffc880;
     border-color: white;
     border-radius: 0px;
+            margin-top: -30px;
     }
     #btnmenubar:hover {
     background: #ffc880;
@@ -1908,6 +1913,7 @@ input[type=text],input[type=email] {
         display: block;
         font-family: "MONTSERRAT-SEMIBOLD";
         font-size: 100%;
+        color: #64a28b;
     }
     .famenu {
          display: inline;
@@ -1926,8 +1932,117 @@ input[type=text],input[type=email] {
     }
     
     
+    #textoportada {
+    font-size: 2em;
+    width: 100%;
+    font-family: "MONTSERRAT-SEMIBOLD";
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    margin-top: 12%;
+    color: white;
+    z-index: 2;
+    line-height: 1.2em;
+    text-align: center;
+    color: #ffc880;
+    text-shadow: 1px 1px 1px #5f411b;
+    font-style: italic;
+}
+
+#blockmsjtransp {
+/*
+    width: 100%;
+    height: 17%;
+    background-color: black;
+    opacity: 0.5;
+    filter: alpha(opacity=30);
+    z-index: 1;
+    position: absolute;
+    margin-left: 0%;
+    margin-top: 0%;
+    display: inline;
+*/
+    display: none;
 }
     
+    #textoportada + img{
+        opacity: 0.5;
+    }
+    
+    #blockheaderyellow {
+    width: 40px;
+    height: 40px;
+    margin-left: 6.8%;
+    margin-top: -18px;
+    }
+    
+    #blockPORTADAyellow {
+    margin-left: 81%;
+    margin-top: 35%;
+    z-index: 3;
+    width: 40px;
+    height: 40px;
+    }
+    
+    #blockPORTADAgreen {
+   margin-left: 71%;
+    margin-top: 40%;
+    width: 33px;
+    height: 33px;
+    z-index: 3;
+    top: 55%;
+        display: none;
+    }
+    
+    #blockheader {
+        margin-left: 10.6%;
+    margin-top: 17%;
+        display: none;
+    }
+    
+    #mynavbar{
+        margin-bottom: 0%;
+    }
+    
+    #linetextoportada {
+
+        display: none;
+        }
+    
+    
+    #sociallinks {
+    display: none;
+    }
+    
+    #sociallinksmobile
+    {
+    display: inline;
+    position: relative;
+    width: 103%;
+    float: right;
+    text-align: center;
+    }
+    .socllink>img{
+        width: 27px;
+    }
+    
+    #logo {
+    margin-bottom: 6%;
+    }
+    
+    
+}
+    
+
+
+
+
+
+
+
+
+
+
  
 /*    Customs */
 @media (min-width:991px) and (max-width: 1200px) 
