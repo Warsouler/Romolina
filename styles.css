@@ -1635,18 +1635,34 @@ input[type=text],input[type=email] {
     width: 42%;
 }
     
+    
+    
+    #blockmsjtransp {
+    width: 42%;
+    height: 28%;
+    background-color: black;
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+    z-index: 1;
+    position: absolute;
+    margin-left: 57.8%;
+    margin-top: -33%;
+    display: inline;
+}
+    
+    
     #linetextoportada {
-    font-family: "MONTSERRAT-SEMIBOLD";
+        font-family: "MONTSERRAT-SEMIBOLD";
     position: absolute;
     left: 61%;
     right: 15%;
-    margin-top: inherit;
+       margin-top: 18.1%;
     color: white;
     font-size: 3.5em;
     line-height: 1.1em;
     z-index: 2 !important;
     width: 8.2%;
-        top: 64.3%;
+    top: inherit;
     }
     
     #blockaboutmeyellow+img{
@@ -1749,6 +1765,23 @@ input[type=text],input[type=email] {
     margin-left: 6%;
     }
     
+    
+    
+    
+    
+    #yo{
+        margin-bottom: -4%;
+    }
+    
+    
+    #maternity_title {
+    text-align: center;
+    margin-top: 32%;
+    margin-bottom: 12%;
+    }
+    
+    
+    
         
 }
 
@@ -1777,7 +1810,61 @@ input[type=text],input[type=email] {
         #columna2{
                 background: green;
         }
+    #yellowbetweensq,#greenbetweensq,#blockentre1yellow,#blockentre2yellow {
+  
+    display: none;
+    }
     
+    .columncuadricula {
+    margin-bottom: 9%;
+    }
+    
+    
+    #newborn_title {
+    margin-top: -86%;
+    text-align: center;
+    margin-bottom: 63%;
+    }
+    
+    
+    #columna1maternity{
+        margin-bottom: 14%;
+    }
+    
+    
+    #children_title {
+    margin-top: 14%;
+    text-align: center;
+    margin-bottom: 9%;
+    }
+    
+    #family_title {
+    margin-top: -84%;
+    text-align: center;
+    margin-bottom: 80%;
+    }
+    
+    
+    #children {
+    margin-bottom: 26%;
+    }
+    
+    #customprevious {
+
+    margin-top: 368px;
+
+    }
+
+    #customnext {
+
+    margin-top: 368px;
+
+    }
+    
+    #columna1maternity,#columna1newborn,#columna1children,#columna1family {
+    
+    margin-left: 33px;
+    }
     
     
 }
