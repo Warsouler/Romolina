@@ -2305,9 +2305,14 @@ display: inline;
     margin-top: 4%;
     }
     
-    
-    
-    
+    #children_title {
+    margin-top: 14%;
+    text-align: center;
+            margin-bottom: 12%;
+    }
+    #blsmallyellowform{
+        display: none;
+    }
 }
     
 
@@ -2372,4 +2377,15 @@ display: inline;
     
 }
 
+@media (max-width:320px)
+{
+    
+    #newbornline {
+    margin-left: -144px;
+    margin-top: 4px;
+    }
+    
+    
+    
+}
 

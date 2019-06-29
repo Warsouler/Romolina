@@ -686,8 +686,25 @@
   $("nav a").on('click',function(){
     var link = $(this).attr('href');
 
-        if($(window).width()<768)      
-          $('html,body').animate({scrollTop: ($(link).offset().top - 160)},'normal');
+        if($(window).width()<768)
+            {
+               if (link=="#maternity")
+                  $('html,body').animate({scrollTop: ($(link).offset().top - 380)},'normal');
+                else if(link=="#newborn")
+                    $('html,body').animate({scrollTop: ($(link).offset().top - 550)},'normal');
+                    else if(link=="#children")
+                                            $('html,body').animate({scrollTop: ($(link).offset().top - 400)},'normal');
+
+                        else if(link=="#family")
+                                                $('html,body').animate({scrollTop: ($(link).offset().top - 550)},'normal');
+                else if(link=="#top")
+                    $('html,body').animate({scrollTop: ($(link).offset().top - 550)},'normal');
+                    else if(link=="#miform")
+                        $('html,body').animate({scrollTop: ($(link).offset().top - 550)},'normal');
+
+                
+                                
+            }
           else
           $('html,body').animate({scrollTop: ($(link).offset().top)},'normal');
 
