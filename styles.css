@@ -1875,19 +1875,8 @@ input[type=text],input[type=email] {
 
 
 
-
-/*Tablets and Upper*/
-@media (min-width: 768px)
-{
-    
-    
-
-}
-
-
-
 /* Mobile */
-@media (max-width: 768px)
+@media (max-width: 767px)
 {
    .hovereffect .overlay {
     transform: inherit;
@@ -2388,4 +2377,12 @@ display: inline;
     
     
 }
+
+/*
+@media (device-width:768px)
+{
+   
+    
+}
+*/
 
