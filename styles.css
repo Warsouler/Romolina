@@ -2070,9 +2070,10 @@ input[type=text],input[type=email] {
     }
     
     .aboutmeline {
-    margin-left: 0%;
-/*    top: -97%;*/
-    left: 40%;
+    text-align: cener;
+    position: relative;
+    margin: 0 auto;
+    left: -80px;
     }
     
     #blockyellowcuadricula2 {
@@ -2146,8 +2147,8 @@ input[type=text],input[type=email] {
     }
     
     #newbornline {
-    margin-left: -143px;
-    margin-top: 8px;
+    margin-left: -286px;
+    margin-top: 27px;
     }
     
     #familyline {
@@ -2176,15 +2177,134 @@ input[type=text],input[type=email] {
     margin-bottom: 74%;
     }
     
-    #newbornline {
-    margin-left: -37.5%;
-    margin-top: 4%;
-    }
+   
     
     #blockaboutmeyellow {
     margin-top: 34%;
     margin-left: inherit;
     }
+    
+    
+    #greenrow {
+    margin: 0 auto;
+    margin-bottom: 11%;
+    }
+    
+    #contactlabel {
+    font-size: 3em;
+    }
+    
+    #blsmallyellowform {
+    width: 35px;
+    height: 35px;
+    background-color: #ffc880;
+    position: absolute;
+    margin-top: -970px;
+    left: 0%;
+    margin-left: 46%;
+    }
+    
+    #contactline {
+    width: 81px;
+    display: inline;
+    margin-left: 20%;
+    background: #87C6B0;
+    }
+    
+    #titleform {
+    margin-bottom: 5%;
+    margin-top: 9%;
+    }
+    
+    
+    #bodyform {
+display: inline;
+    }
+    
+    .form-group {
+    width: 100%;
+    margin: 0 auto;
+     margin-left: 0% !important; 
+    margin-top: 75px;
+    text-align: center;
+    }
+    
+    .form-horizontal .control-label {
+    font-family: "MONTSERRAT-LIGHT";
+    letter-spacing: 0.2em;
+    padding-top: 7px;
+    /* margin-bottom: -1px; */
+    margin-bottom: -31px;
+    text-align: center;
+    width: 100%;
+    float: none;
+    }
+    
+    #blbiggreenform {
+    display: none;
+    }
+    #labelemail {
+    left: inherit;
+    }
+    
+    #lblcomment {
+    left: 0%;
+    }
+    
+    #inputSuccess3, #inputGroupSuccess2 {
+    width: 70%;
+    }
+    .form-horizontal .has-feedback .form-control-feedback {
+    right: 0px;
+    }
+    
+    .help-block.with-errors {
+    width: 100%;
+    margin-top: 8%;
+        margin-bottom: 16%;
+    }
+    
+    #emailerror {
+    width: 100%;
+    }
+    
+    #comment{
+        width: 71%;
+    }
+    
+    #blsmallgreenform {
+    left: 82%;
+    width: 43px;
+    height: 43px;
+    margin-top: -564px;
+    margin-left: -65%;
+    }
+    #blbigyellowform {
+    width: 43px;
+    height: 43px;
+    background-color: #ffc880;
+    position: absolute;
+    left: 85%;
+    margin-top: 74%;
+    }
+    
+    #btnsubmit {
+    font-size: 2em;
+    padding: 6px 224px;
+    text-align: center;
+    border-radius: 0px;
+    margin-left: 3%;
+    width: 94%;
+    padding: inherit;
+    padding-bottom: 6px;
+    float: left;
+    margin-top: 3%;
+    }
+    .lastcontact {
+    margin-left: 297px;
+    margin-top: 4%;
+    }
+    
     
     
     
