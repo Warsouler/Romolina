@@ -1588,6 +1588,58 @@ input[type=text],input[type=email] {
 
 }
 
+.contenidomodal {
+    border-radius: 0%;
+    background: #80bca6;
+    text-align: center;
+    font-family: "MONTSERRAT-BOLD";
+}
+
+.cabeceramodal {
+    border-radius: 0%;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 0%;
+    background: transparent;
+    color: #ffc578;
+    font-family: "MONTSERRAT-BOLD";
+
+}
+
+
+
+    #cruzcerrar {
+    margin-top: 2px;
+    color: #ffc578;
+    opacity: 1;
+    margin-right: -55%;
+    }
+
+
+.cuerpomodal {
+    font-family: "MONTSERRAT-BOLD";
+    color: white;
+    }
+
+#botonaceptar {
+        float: left;
+    margin-left: 43%;
+    border-radius: 0%;
+    background: white;
+    color: #2d7d0d;
+}
+
+
+#myModal{
+        display: block;
+    font-size: 1.4em;
+}
+
+.modal-content {
+    -webkit-box-shadow: 0 5px 15px #ffc578;
+    box-shadow: 0 5px 15px #ffc578;
+}
 
 
 
