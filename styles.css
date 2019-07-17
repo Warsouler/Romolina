@@ -1,16 +1,17 @@
 @font-face {
 font-family: "MONTSERRAT-BOLD";
-src: url("fonts/MONTSERRAT-BOLD.ttf")format("truetype");
+src: url("../fonts/MONTSERRAT-BOLD.TTF")format("truetype");
 }
 @font-face {
 font-family: "MONTSERRAT-LIGHT";
-src: url("fonts/MONTSERRAT-LIGHT.ttf" )format("truetype");
+src: url("../fonts/MONTSERRAT-LIGHT.TTF" )format("truetype");
 }
 
 @font-face {
 font-family: "MONTSERRAT-SEMIBOLD";
-src: url("fonts/MONTSERRAT-SEMIBOLD.TTF" )format("truetype");
+src: url("../fonts/MONTSERRAT-SEMIBOLD.TTF" )format("truetype");
 }
+
 
 
 
