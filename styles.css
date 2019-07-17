@@ -2040,7 +2040,7 @@ display: inline !important;
 }
     
     #textoportada + img{
-        opacity: 0.5;
+        opacity: 1;
     }
     
     #blockheaderyellow {
@@ -2159,7 +2159,7 @@ display: inline !important;
     }
         #blockyellow1cuadricula3 {
        z-index: 3;
-    left: -1%;
+    left: 4%;
     top: -5%;
     width: 40px;
     height: 40px;
