@@ -1958,6 +1958,12 @@ display: inline !important;
     transform: inherit;
     }
     
+    #sociallinksmobile{
+    display: inherit;
+        text-align: center;
+    }
+    
+    
     #btnmenubar {
     background: #ffc880;
     border-color: white;
@@ -2092,7 +2098,7 @@ display: inline !important;
     {
     display: inline;
     position: relative;
-    width: 103%;
+    width: 100%;
     float: right;
     text-align: center;
     }
