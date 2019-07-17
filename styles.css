@@ -1544,7 +1544,7 @@ input[type=text],input[type=email] {
     -webkit-font-smoothing: antialiased;
     font-size: 3em;
     -moz-osx-font-smoothing: grayscale;
-        margin-left: 94%;
+        margin-left: 89%;
     margin-top: 1%;
     color: #2f755b;
     cursor: pointer;
@@ -1641,6 +1641,8 @@ input[type=text],input[type=email] {
     -webkit-box-shadow: 0 5px 15px #ffc578;
     box-shadow: 0 5px 15px #ffc578;
 }
+
+
 
 
 
@@ -1836,6 +1838,27 @@ input[type=text],input[type=email] {
     margin-top: 32%;
     margin-bottom: 12%;
     }
+    
+/*
+    #customprevious{
+
+display: inline !important;
+    position: relative !important;
+    left: -92% !important;
+    top: 45% !important;
+
+}
+
+#customnext{
+
+display: inline !important;
+    position: relative !important;
+    top: 45% !important;
+
+
+
+}
+*/
     
     
     
@@ -2355,6 +2378,12 @@ display: inline;
     #blsmallyellowform{
         display: none;
     }
+    
+    
+    #columna1maternity, #columna1newborn, #columna1children, #columna1family {
+            margin-left: -2.9%;
+        }
+    
 }
     
 
