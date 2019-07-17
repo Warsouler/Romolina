@@ -2399,6 +2399,23 @@ display: inline;
     #columna1maternity, #columna1newborn, #columna1children, #columna1family {
             margin-left: -2.9%;
         }
+    #customnext {
+    top: 38%;
+    margin-top: 0%;
+    margin-left: 0%;
+    position: relative;
+    left: 46%;
+	display:inline !important;
+}
+
+#customprevious {
+    margin-top: 0%;
+    margin-left: 0%;
+    position: relative;
+    top: 38%;
+    left: -46%;
+display:inline !important;
+    }
     
 }
     
