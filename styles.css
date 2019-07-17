@@ -1970,6 +1970,15 @@ display: inline !important;
     border-radius: 0px;
     }
     
+    #cuadricula_first_row,#cuadricula_second_row {
+    margin-left: -5%;
+    }
+    
+    #cuadricula_first_row {
+    margin-bottom: 0%;
+    
+    }
+    
     
     .navbar-inverse .navbar-nav>li>a {
         columns: #616160;
