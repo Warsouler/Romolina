@@ -2101,6 +2101,7 @@ display: inline !important;
     width: 100%;
     float: right;
     text-align: center;
+        margin-top: 2%;
     }
     .socllink>img{
         width: 27px;
