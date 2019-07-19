@@ -689,8 +689,7 @@
      
      
  $(document).ready(function(){
-     
-//        $('#myModal').modal();
+    
      
   $("nav a").on('click',function(){
     var link = $(this).attr('href');
@@ -750,17 +749,99 @@ $('a.socllink').click(function(){
                      var senderemail=$('#inputGroupSuccess2').val();
                       var bodyemail=$('#comment').val();
                       
-              Email.send({
-                  
-                  SecureToken : "82f03614-bb4b-4574-a5ee-70645f75c39f",
-               To : 'romina.molina077@gmail.com',
-                From : senderemail,
-              Subject : "Rocio Molina ph - " + name,
-               Body :bodyemail
-           }).then(
-             message => $('#myModal').modal()
-                  
-           ); 
+//              Email.send({
+//                  
+//                  SecureToken : "0e9c51e4-81bd-48a8-9ef0-4d74dada5cc1",
+//               To : 'juangroia_89@hotmail.com',
+//                From : senderemail,
+//              Subject : "Rocio Molina ph - " + name,
+//               Body :bodyemail
+//           }).then(
+//             message => alert(message)
+//                  
+//           );
+         debugger;
+         $('#btnsubmit').addClass('disabled');
+         $('#myModal').modal();
+         
+         Email.send({
+    Host : "mail.romolinaph.com",
+    Username : "contacto@romolinaph.com",
+    Password : "aJd7P9Fc",
+    To : 'romina.molina077@gmail.com',
+    From : senderemail,
+     Subject : "Rocio Molina ph - " + name,
+    Body :bodyemail
+}).then(
+  message => $('#btnsubmit').removeClass('disabled')
+);
+         
+         
+         
+//         Email.send({
+//    Host : "smtp25.elasticemail.com",
+//    Username : "romina.molina077@gmail.com",
+//    Password : "dbf95902-d8e8-4a88-b6a5-3def78a12146",
+//    To : 'juangroia_89@hotmail.com',
+//    From : "romina.molina077@gmail.com",
+//    Subject : "This is the subject",
+//    Body : "And this is the body"
+//}).then(
+//  message => alert(message)
+//);
+         
+         
+         
+         
+         
+//         var msg={
+//        "FromEmail":"groiajuan@gmail.com","FromName":"Mailjet Pilot","Subject":"Your email flight plan!","Text-part":"Dear passenger, welcome to Mailjet! May the delivery force be with you!","Html-part":"<h3>Dear passenger, welcome to <a href=\"https://www.mailjet.com/\">Mailjet</a>!<br />May the delivery force be with you!","Recipients":[{"Email":"passenger@mailjet.com"}]
+//    };
+//         
+//         
+//         
+//         $.ajax({
+//    url: "https://api.mailjet.com/v3.1/send",
+//    beforeSend: function(xhr) { 
+//      xhr.setRequestHeader("Authorization", "Basic " + btoa("6b3ab1e3c59f676790dd267e139d7481:f9a2f56eccc5dae3471b27577c7ea2c4")); 
+//    },
+//    type: 'POST',
+//    dataType: 'jsonp',
+//             username:'6b3ab1e3c59f676790dd267e139d7481',//change this
+//    password:'f9a2f56eccc5dae3471b27577c7ea2c4',//change this
+//    contentType: 'application/json',
+//    processData: false,
+////    data: '{"email_address": "user@example.com", "status": "pending"}',
+//             data: 'msg',
+//    success: function (data) {
+//      alert(JSON.stringify(data));
+//    },
+//    error: function(){
+//      alert("Cannot get data");
+//    }
+//});
+         
+         
+         
+//         $.ajax({
+//                url: 'https://api.mailjet.com/v3.1/send',
+//                dataType: 'jsonp',
+//                type: 'post',
+//                contentType: 'application/json',
+//                headers: {"Authorization": "Basic " + "6b3ab1e3c59f676790dd267e139d7481:f9a2f56eccc5dae3471b27577c7ea2c4",'Access-Control-Allow-Origin': '*'},
+//                data: msg,
+////             beforeSend: function (xhr){ 
+////                xhr.setRequestHeader('Authorization', '6b3ab1e3c59f676790dd267e139d7481:f9a2f56eccc5dae3471b27577c7ea2c4'); 
+////            },
+//                success: function( data, textStatus, jQxhr ){
+//                    alert("bien");
+//                },
+//                error: function( jqXhr, textStatus, errorThrown ){
+//                    alert("mal");
+//                }
+//            });
+
+        
            
              return false;
   
