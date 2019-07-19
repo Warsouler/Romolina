@@ -1971,7 +1971,9 @@ input[type=text],input[type=email] {
         text-align: center;
     }
     
-    
+    #textoportada{
+        display: none;
+    }
     #btnmenubar {
     background: #ffc880;
     border-color: white;
