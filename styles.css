@@ -266,6 +266,11 @@ nav.navbar.navbar-default.navbar-inverse.navbarnofixed
 /*Fin PORTADA*/
 
 
+.imgcar{
+    cursor: pointer;
+}
+
+
 /*Inicio  ABOUT ME*/
 
 #conteineraboutme{
